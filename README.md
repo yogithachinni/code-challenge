@@ -115,6 +115,6 @@ Once you have completed your code, submit a link to a Github repo that contains 
 
 * *How long may I work on this?*
 
-  Our rough expectation is that the challenge will take a couple/few real time hours and can therefore be due in 48 calendar hours. That said, it is more important to be well built than timely so if you have other commitments and cannot quickly accomplish the challenge, then we would rather wait than get rushed code.
+  The rough expectation is that the challenge will take a couple/few real time hours and can therefore be due in 48 calendar hours. That said, it is more important to be well built than timely so if you have other commitments and cannot quickly accomplish the challenge, then you can take more time.
 
 If you have further questions you can email <mailto:ccdwh@shutterfly.com>.
