@@ -94,6 +94,7 @@ Once you have completed your code, submit a link to a Github repo that contains 
   No, you do not need to pay for a private repo - public is fine.
 
 * *Where does the data structure passed into the methods come from?*
+
   Some caller will pass you the data structure to use. You will define an in-memory data structure to use for the purposes of this challenge, but in some theoretical future refactor of this code there could be a different data structure implementation.
 
 * *What does an event look like?*
