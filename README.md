@@ -103,7 +103,7 @@ Once you have completed your code, submit a link to a Github repo that contains 
 
 * *How should I handle data that [is missing (OR) looks like (OR) has] particular case X?*
 
-  You are welcome to protect your code against any particular data or handle data in any particular way, but it is a best practice to gracefully handle unexpected input. I recommend documenting any design decisions or assumptions around data integrity.
+  You are welcome to protect your code against any particular data or handle data in any particular way, but it is a best practice to gracefully handle unexpected input. You should document any critical design decisions or assumptions.
 
 * *You are requiring ingesting of events that are not used. What am I missing?*
 
