@@ -71,7 +71,7 @@ See `sample_input` directory for a sample of each event.
   * total_amount
 
 ## Directory structure
-This project has a couple of dummy directories in the format expected of your code.
+This project has the following directories, and it is expected that your code will follow the same structure.
 
 ```
 - README.md
