@@ -23,52 +23,54 @@ Please use the following sample events the Data Warehouse collects from Shutterf
 See `sample_input` directory for a sample of each event.
 
 ### Customer
-* type
+* type *
   * CUSTOMER
-* verb
+* verb *
   * NEW
   * UPDATE
 * Additional Data
-  * key(customer_id)
-  * event_time
+  * key(customer_id) *
+  * event_time *
   * last_name
   * adr_city
   * adr_state
 
 ### Site Visit
-* type
+* type *
   * SITE_VISIT
-* verb
+* verb *
   * NEW
 * Additional Data
-  * key(page_id)
-  * event_time
-  * customer_id
-  * tags
+  * key(page_id) *
+  * event_time *
+  * customer_id *
+  * tags (array of name/value properties)
 
 ### Image Upload
-* type
+* type *
   * IMAGE
-* verb
+* verb *
   * UPLOAD
 * Additional Data
-  * key(image_id)
-  * event_time
-  * customer_id
+  * key(image_id) *
+  * event_time *
+  * customer_id *
   * camera_make
   * camera_model
 
 ### Order
-* type
+* type *
   * ORDER
-* verb
+* verb *
   * NEW
   * UPDATE
 * Additional Data
-  * key(order_id)
-  * event_time
-  * customer_id
-  * total_amount
+  * key(order_id) *
+  * event_time *
+  * customer_id *
+  * total_amount *
+
+\* represents required data
 
 ## Directory structure
 This project has the following directories, and it is expected that your code will follow the same structure.
@@ -116,5 +118,17 @@ Once you have completed your code, submit a link to a Github repo that contains 
 * *How long may I work on this?*
 
   The rough expectation is that the challenge will take a couple/few real time hours and can therefore be due in 48 calendar hours. That said, it is more important to be well built than timely so if you have other commitments and cannot quickly accomplish the challenge, then you can take more time.
+
+* *What is the point of dealing with site visits? Couldn't I just add up the order totals and multiply?*
+
+  Correct, dividing revenue by site visits just to multiply back out is not necessary to get to the result. That being said, for the purposes of this exercise you should assume that revenue / visit and visits/week are important metrics to the business and should be available from the data - even if you choose to not implement your revenue calculation using them.
+
+* *How do I handle missing data? What if a user doesn't come back?*
+
+  You should consider your data set (whatever data set you use to test) as complete for that timeframe. So if user A has order events in week 1 and order events in the following week 2, but user B has only order events in week 1, then user B will have see a lower average revenue as his revenue is averaged with zero revenue in week 2.
+
+* *What constitutes a week?* 
+
+  You can calculate whatever you want for a week, but it is probably easier to consider a week as running from Sunday - Saturday, as the US default calendar does.
 
 If you have further questions you can email <mailto:ccdwh@shutterfly.com>.
