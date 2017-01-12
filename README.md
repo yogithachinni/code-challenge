@@ -121,7 +121,7 @@ Once you have completed your code, submit a link to a Github repo that contains 
 
 * *What is the point of dealing with site visits? Couldn't I just add up the order totals and multiply?*
 
-  Correct, dividing revenue by site visits just to multiply back out is not necessary to get to the result. That being said, for the purposes of this exercise you should assume that revenue / visit and visits/week are important metrics to the business and should be available from the data - even if you choose to not implement your revenue calculation using them.
+  Correct, dividing revenue by site visits just to multiply back out is not necessary to get to the result. That being said, for the purposes of this exercise you should assume that revenue / visit and visits / week are important metrics to the business and should be available from the data - even if you choose to not implement your revenue calculation using them.
 
 * *How do I handle missing data? What if a user doesn't come back?*
 
