@@ -1,1 +1,6 @@
-Your output data will end up here
+There are no 10 customers.
+Key : fdfdsfafaf last_name : HOOP adr_city : DDD adr_state : KKK LTV : 5768413.718388102
+
+Key : 96f55c7d8f42 last_name : Smith adr_city : TK adr_state : S LTV : 19444.553085640397
+
+
